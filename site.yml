@@ -1,6 +1,6 @@
 ---
 
-- hosts: all
+- hosts: webserver
   become: true
   tasks: 
 
