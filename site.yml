@@ -6,6 +6,7 @@
 
   
   - name: install apache2 and php package for Ubuntu servers
+    tags: always
     apt:
       name: 
         - apache2
@@ -16,6 +17,7 @@
 
 
   - name: install apache2 and php package for CentOS server
+    tags: always
     apt:
       name:
         - httpd
