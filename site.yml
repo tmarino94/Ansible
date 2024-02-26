@@ -12,7 +12,7 @@
 
    - name: update repository index (Ubuntu)
      tags: always
-     dnf:
+     apt:
        update_cache: yes
        changed_when: false 
      when: ansible_distribution == "Ubuntu"
